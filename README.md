@@ -11,12 +11,12 @@ Add `webscreenconsole.js` to your webpage and if you have element for example a 
 ```js
 <!DOCTYPE html>
 <html>
-    <head>
-	    <title>Webscreenconsole test</title>
-		<script src="webscreenconsole.js"></script>
+	<head>
+		<title>Webscreenconsole test</title>
+    	<script src="webscreenconsole.js"></script>
 	</head>
 	<body>
-	    <h1 style="font-family: monospace;">Console</h1>
+		<h1 style="font-family: monospace;">Console</h1>
 		<div id="console"></div>
 		<script>console.load(document.getElementById('console'));</script>
 		<script>
