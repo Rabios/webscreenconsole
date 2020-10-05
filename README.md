@@ -11,17 +11,17 @@ Add `webscreenconsole.js` to your webpage and if you have element for example a 
 ```js
 <!DOCTYPE html>
 <html>
-    <head>
-	    <title>Console</title>
-	    <script src="webscreenconsole.js"></script>
-	</head>
-	<body>
-	    <div id="console"></div>
-	    <script>console.load(document.getElementById('console'));</script>
-	    <script>
-            // Then log, error, warn, or info here!
-		</script>
-	</body>
+  <head>
+    <title>Console</title>
+	<script src="webscreenconsole.js"></script>
+  </head>
+  <body>
+    <div id="console"></div>
+	<script>console.load(document.getElementById('console'));</script>
+	<script>
+      // Then log, error, warn, or info here!
+	</script>
+  </body>
 </html>
 ```
 
