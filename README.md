@@ -34,7 +34,7 @@ var console = {
     log_colors: { head: "violet", log: "white", info: "lime", warning: "yellow", error: "red" }, // Log colors
     font: "monospace",
     font_size: 24,
-	  background_color: "black",
-	  background_image: undefined // Put image link here to replace color with image as background!
+	background_color: "black",
+	background_image: undefined // Put image link here to replace color with image as background!
 }
 ```
