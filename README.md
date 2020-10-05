@@ -12,7 +12,7 @@ Add `webscreenconsole.js` to your webpage and if you have element for example a 
 <!DOCTYPE html>
 <html>
     <head>
-	    <title>Console</title>
+	<title>Console</title>
 		<script src="webscreenconsole.js"></script>
 	</head>
 	<body>
