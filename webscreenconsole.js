@@ -36,12 +36,20 @@ console.load = function(elem) {
     }
 };
 
+console.close = function() {
+	if (console.screen) {
+		console.screen.innerHTML = "";
+        console.screen.style.visibility = "hidden";
+	    console.screen = undefined;
+	}
+};
+
 console.show = function() {
-	if (console.screen) console.screen.style.visibility = "visible";
+	if (console.screen) console.screen.style.display = "block";
 };
 
 console.hide = function() {
-	if (console.screen) console.screen.style.visibility = "hidden";
+	if (console.screen) console.screen.style.display = "none";
 };
 
 console.log = function(msg) {
@@ -88,9 +96,10 @@ console.error = function(msg) {
 	}
 };
 
-console.close = function() {
+console.clear = function() {
 	if (console.screen) {
-        console.screen.style.visibility = "hidden";
-	    console.screen = undefined;
+		for (var i = console.screen.getElementsByTagName("p").length - 1; i > 0; i--) {
+			if (!(i == 0)) console.screen.removeChild(console.screen.getElementsByTagName("p")[i]);
+		}
 	}
-};
+}
