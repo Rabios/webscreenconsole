@@ -6,24 +6,7 @@ My attempt to do a custom web console with JavaScript :)
 
 ### Usage
 
-Add `webscreenconsole.js` to your webpage and if you have element for example a `<div>` with id so...
-
-```js
-<!DOCTYPE html>
-<html>
-    <head>
-	    <title>Console</title>
-		<script src="webscreenconsole.js"></script>
-	</head>
-	<body>
-	    <div id="console"></div>
-	    <script>console.load(document.getElementById('console'));</script>
-		<script>
-		    // TODO: Do stuff to console!
-		</script>
-	</body>
-</html>
-```
+You can take look at [this example](https://github.com/Rabios/webscreenconsole/blob/master/test.html) that explains usage of it!
 
 ### Functions
 
