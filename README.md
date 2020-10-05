@@ -11,24 +11,31 @@ Add `webscreenconsole.js` to your webpage and if you have element for example a 
 ```js
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Webscreenconsole test</title>
-    	<script src="webscreenconsole.js"></script>
+    <head>
+	    <title>Console</title>
+		<script src="webscreenconsole.js"></script>
 	</head>
 	<body>
-		<h1 style="font-family: monospace;">Console</h1>
-		<div id="console"></div>
-		<script>console.load(document.getElementById('console'));</script>
+	    <div id="console"></div>
+	    <script>console.load(document.getElementById('console'));</script>
 		<script>
-			console.log("Hello World!");
-			console.info("Made with love and JavaScript!");
-			console.warning("This is something experimental :)");
-			console.error("This is harmful!");
-			console.error("THE WAR BEGINS!");
+		    // TODO: Do stuff to console!
 		</script>
 	</body>
 </html>
 ```
+
+### Functions
+
+- `console.load(elem);` Loads console which takes element.
+- `console.close();` Closes console and removes all content within it (With removing it).
+- `console.show();` Shows console.
+- `console.hide();` Hides console (Without taking space).
+- `console.log(msg);` Logs simple log message.
+- `console.info(msg);` Logs info log message.
+- `console.warning(msg);` Logs warning log message.
+- `console.error(msg);` Logs error log message.
+- `console.clear();` Clears console!
 
 ### Console properties
 
