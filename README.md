@@ -2,7 +2,7 @@
 
 My attempt to do a custom web console with JavaScript :)
 
-<img src="https://scontent-mrs2-1.xx.fbcdn.net/v/t1.0-9/120943836_645157386374213_434817603923516791_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=Nkf4-Cow77kAX8TTQ-0&_nc_ht=scontent-mrs2-1.xx&oh=d8c3af2ff2bcaf3cad9fd0567c623307&oe=5FA07654">
+<br><img src="preview.png"><br>
 
 ### Usage
 
@@ -24,9 +24,17 @@ You can take look at [this example](https://github.com/Rabios/webscreenconsole/b
 
 This custom web console is customizable, It allows anyone to set background, Font with a size, Or even colors!
 
+You can go to `webscreenconsole.js` and edit `console` Object for this which is the following:
+
 ```js
 var console = {
-    log_colors: { head: "violet", log: "white", info: "lime", warning: "yellow", error: "red" }, // Log colors
+    log_colors: {
+        head: "violet",
+        log: "white",
+        info: "lime",
+        warning: "yellow",
+        error: "red"
+    }, // Log colors
     font: "monospace",
     font_size: 24,
     background_color: "black",
